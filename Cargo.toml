@@ -1,0 +1,22 @@
+[package]
+name = "hashhelper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.3"
+sha2 = "0.9.1"
+
+[[bin]]
+name = "hashhelper"
+path = "src/core/hashhelper.rs"
+
+[[bin]]
+name = "sample_good"
+path = "src/demos/sample_good.rs"
+
+[[bin]]
+name = "sample_bad"
+path = "src/demos/sample_bad.rs"
