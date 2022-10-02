@@ -24,7 +24,7 @@ Build the application - wraps `cargo build`
 Clean the build directory
 
 ### Features
-* Calculate the cryptographic hash of a file
+* Calculate the cryptographic hash of a file (SHA-256)
 * Display the hash on the command line in hexadecimal format
 * Includes 2 slightly different sample programs (to show how a file can be maliciously changed)
 
@@ -40,4 +40,4 @@ Clean the build directory
 ____________
 
 ### Command Line Usage
-* ./hashhelper <filename>
+* `./hashhelper <filename>` to show the SHA-256 hash of the provided file
